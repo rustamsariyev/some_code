@@ -2,6 +2,10 @@ pipeline {
   agent {
     label "master"
   }
+  
+  triggers {
+    cron('H/1 * * * *')
+  }
   stages {
     stage('echo') {
       steps {
