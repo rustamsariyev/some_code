@@ -8,7 +8,7 @@ pipeline {
     stage('Change Display Name'){
         steps{
             script{
-                currentBuild.displayName = "${SOURCEBRANCH}_${BUILD_NUMBER}"
+                currentBuild.displayName = "TTTTTTTTTTTTTTTTTTTT_${BUILD_NUMBER}"
             }
         }
     }  
